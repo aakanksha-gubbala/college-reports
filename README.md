@@ -1,2 +1,1 @@
-# college-reports
-LaTeX for reports
+## LaTeX templates for college reports

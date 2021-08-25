@@ -1,0 +1,136 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{setspace}
+\usepackage[a4paper,
+            left=1in,right=1in,top=1in,bottom=1in,
+            ]{geometry}
+\usepackage{newtxtext,newtxmath}
+\usepackage{times}
+\renewcommand{\thesection}{\arabic{section}}
+\usepackage[utf8]{inputenc}
+\usepackage{titling}
+\usepackage[titles]{tocloft}
+\usepackage[compact]{titlesec}
+\usepackage[hidelinks,breaklinks]{hyperref}
+\usepackage{relsize} 
+\usepackage{graphicx}
+
+% Bibliography
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{csquotes}
+\usepackage[style=authoryear-ibid,backend=biber]{biblatex}
+\addbibresource{sample.bib}
+\renewcommand{\bibname}{References}
+
+% Header & Footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\fancyhf{}
+\fancyhead[C]{{\it \rightmark}}
+\fancyfoot[R]{\thepage}
+% \fancyfoot[L]{{\it Thesis title}}
+\renewcommand{\headrulewidth}{0.2pt}
+\renewcommand{\footrulewidth}{0.2pt}
+\setlength{\headheight}{15pt}
+\setlength{\footskip}{30pt}
+
+% Format index
+\addto\captionsenglish{\renewcommand{\contentsname}{Index}
+}
+\titleformat{\chapter}[hang]{\larger\bfseries}{\thechapter.}{2em}{}
+\titlespacing*{\chapter}{0pt}{-2em}{1.2\parskip}
+\titlelabel{\thetitle\quad}
+\setlength{\cftsecindent}{0pt}
+\setlength{\cftfigindent}{0pt}
+\setlength{\cfttabindent}{0pt} 
+\setlength\cftbeforechapskip{0pt}
+
+\begin{document}
+\onehalfspacing
+\pagenumbering{arabic}
+\setlength\parindent{0pt}
+
+\begin{titlepage}
+   \begin{center}
+       \vspace*{1cm}
+        
+        My Name\\
+        
+        \vspace{1cm}
+       {\large \textbf{Thesis Title}}
+       \vspace{1cm}
+       
+        2021\\
+       \vfill
+        {\bf \hfill XYZ}
+   \end{center}
+\end{titlepage}
+\newpage
+
+\tableofcontents\thispagestyle{fancy}
+\newpage
+
+\listoffigures\thispagestyle{fancy}
+\addcontentsline{toc}{section}{{\it List of Figures}}
+\newpage
+
+\listoftables\thispagestyle{fancy}
+\addcontentsline{toc}{section}{{\it List of Tables}}
+\newpage
+
+\section[Introduction]{Introduction}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\subsection{Physicochemical Data}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\begin{figure}[h]
+    \centering
+    \frame{\includegraphics[width=12cm,height=10cm,keepaspectratio]{map.png}}
+    \caption{Regime map for Lockhart-Martinelli Correlation}
+\end{figure}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\subsection{Physicochemical Data}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\newpage
+
+\section[Objective \& Scope]{Objective \& Scope}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\vspace*{-0.8\baselineskip}
+\begin{table}[h]
+\centering
+\caption{This is an example}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+A & B & C & D & E  \\
+\hline
+1 & 2 & 3 & 4 & 5  \\
+\hline
+6 & 7 & 8 & 9 & 10 \\
+\hline
+\end{tabular}
+\end{table}
+\vspace*{-0.5\baselineskip}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\newpage
+
+\section[Literature Survey]{Literature Survey}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\newpage
+
+\section[Conclusion]{Conclusion}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\newpage
+
+
+\nocite{*}
+\printbibliography[title={References}]
+\addcontentsline{toc}{chapter}{{\it References}}
+\thispagestyle{fancy}
+\end{document}
