@@ -1,0 +1,20 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{{\it List of Figures}}{2}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{{\it List of Tables}}{3}{chapter*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introduction}{4}{section.0.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Physicochemical Data}{4}{subsection.0.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}Physicochemical Data}{4}{subsection.0.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Objective \& Scope}{6}{section.0.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Literature Survey}{7}{section.0.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Conclusion}{8}{section.0.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{{\it References}}{9}{chapter*.4}%
