@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1629895358 "main.bcf" "main.bbl" "main" 1629895460
+["biber main"] 1629895358 "main.bcf" "main.bbl" "main" 1629896198
   "main.bcf" 1629895368 101744 7c752fe818ddea2d20de12581520c18c "pdflatex"
   "sample.bib" 1629861370 1381 3d6a889f0e0d40988daf1dc04efafeac ""
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1629895366 "/Users/aakanksha_g/Github/college-reports/Home Paper/main.tex" "/Users/aakanksha_g/Github/college-reports/Home Paper/main.pdf" "main" 1629895460
+  "masin.bbl"
+["pdflatex"] 1629895366 "/Users/aakanksha_g/Github/college-reports/Home Paper/main.tex" "/Users/aakanksha_g/Github/college-reports/Home Paper/main.pdf" "main" 1629896198
   "/Users/aakanksha_g/Github/college-reports/Home Paper/main.aux" 1629895368 3632 376a963a4e56b85e052c86551cb9ce99 ""
   "/Users/aakanksha_g/Github/college-reports/Home Paper/main.tex" 1629895457 7173 a8403ec6faaa80ae449efcb8a0562084 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1439157308 2880 847ca622ad468c3dafba6a3f9d89a636 ""
@@ -144,10 +144,10 @@
   "main.lot"
   "/Users/aakanksha_g/Github/college-reports/Home Paper/main.log"
   "main.out"
+  "/Users/aakanksha_g/Github/college-reports/Home Paper/main.pdf"
+  "main.run.xml"
   "main.pdf"
   "main.lof"
-  "/Users/aakanksha_g/Github/college-reports/Home Paper/main.pdf"
   "main.bcf"
   "main.log"
   "main.aux"
-  "main.run.xml"
